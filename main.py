@@ -1,8 +1,8 @@
 #First Example:
 Value1= int(input("Please enter the amount of KW hours:\n"))
 
-first_1000_klw = 0.07633
-over_1000_klw = 0.09259
+first_1000_klw = 7.633
+over_1000_klw = 9.259
 
 if Value1 <= 1000:
     solve = ((Value1 * 7.633) / 100)
